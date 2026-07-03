@@ -1,0 +1,630 @@
+/* Skin Castle CSS */
+
+#inner {
+  background: url("https://i.ibb.co/jv0TR8gk/image-3.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+#footer {
+  background: transparent;
+}
+
+#main {
+  color: #cccccc;
+}
+
+#main a {
+  color: #aaaaaa;
+}
+
+#main a:hover {
+  color: #ffffff;
+}
+
+#outer {
+  background: #0a0a0a;
+}
+
+#header .primary {
+  background: #0a0a0a;
+  box-shadow: 0px 0px 20px #888888;
+}
+
+#header .logo,
+#header .heading sup,
+#header h1.heading span {
+  display: none;
+}
+
+#header h1.heading a::before {
+  display: inline-block;
+  width: 300px;
+  height: 40px;
+  content: " ";
+  background-image: url("https://i.ibb.co/KxtxXdsh/image-4.png");
+  background-size: 300px 40px;
+}
+
+.favorite.module.odd h3.heading,
+.latest.news.module h3.heading span.title,
+.latest.messages.module.odd h3.heading span.title,
+.social.module h3.heading {
+  color: #aaaaaa;
+  text-shadow: 0px 0px 8px #aaaaaa;
+}
+
+.favorite.module.odd h3.heading,
+.latest.news.module h3.heading,
+.latest.messages.module.odd h3.heading,
+.social.module h3.heading {
+  border-bottom: 2px solid #aaaaaa;
+}
+
+a.tag,
+a.tag:visited,
+a.tag:link,
+li.added.tag {
+  display: inline-block;
+  padding: 2px 5px;
+  margin: 2px 0px;
+  border-radius: 5px;
+  border: 2px solid #aaaaaa;
+  box-shadow: 0px 0px 10px #aaaaaa;
+  color: #888888;
+}
+
+a.tag:hover {
+  background: #0a0a0a;
+}
+
+.commas li:after {
+  content: "";
+}
+
+.splash .favorite li:nth-of-type(2n+1) a,
+.splash .favorite li:nth-of-type(2n+2) a {
+  background: rgba(0,0,0,.3);
+  color: #aaaaaa;
+}
+
+.splash .favorite li:nth-of-type(2n+1) a::before {
+  content: "🌙 ";
+  color: transparent !important;
+  text-shadow: 0 0 0 #888888;
+}
+
+.splash .favorite li:nth-of-type(2n+2) a::before {
+  content: "💫 ";
+  color: transparent !important;
+  text-shadow: 0 0 0 #888888;
+}
+
+.splash .favorite li:nth-of-type(2n+1) a:hover,
+.splash .favorite li:nth-of-type(2n+2) a:hover {
+  background: rgba(170, 170, 170,.5);
+  color: #000000 !important;
+}
+
+.news.index.group li.post.group {
+  background: rgba(10, 10, 10,.5);
+  border-bottom: none;
+  padding: .5em;
+  margin-bottom: 2em;
+}
+
+.notice,
+.comment_notice,
+.kudos_notice,
+ul.notes,
+.caution,
+.error,
+.comment_error,
+.kudos_error,
+.alert.flash,
+.LV_invalid {
+  background: rgba(170, 170, 170, .3);
+  border-radius: 5px;
+  border: 2px solid #aaaaaa;
+  box-shadow: 0px 0px 20px #aaaaaa;
+  padding: 1em;
+  color: #ffffff;
+}
+
+.actions a,
+.actions a:link,
+.action,
+.action:link,
+.actions button,
+.actions input,
+input[type="submit"],
+button,
+.current,
+.actions label {
+  background: rgba(170, 170, 170, .4);
+  border: 1px solid #aaaaaa;
+  box-shadow: 0px -3px 10px #aaaaaa inset;
+  color: #888888;
+}
+
+.actions a:hover,
+.actions button:hover,
+.actions input:hover,
+.actions a:focus,
+.actions button:focus,
+.actions input:focus,
+label.action:hover,
+.action:hover,
+.action:focus {
+  background: rgba(170, 170, 170, .7);
+  border: 1px solid #aaaaaa;
+  box-shadow: none;
+  color: #000000 !important;
+}
+
+.actions a:active,
+.current,
+a.current,
+a:link.current,
+.current a:visited {
+  background: rgba(170, 170, 170, .7);
+  border: 1px solid #aaaaaa;
+  color: #000000 !important;
+}
+
+fieldset,
+fieldset dl dl,
+fieldset fieldset fieldset,
+fieldset fieldset dl dl,
+dd.hideme,
+form blockquote.userstuff {
+  background: rgba(10, 10, 10,.5);
+  border: 2px solid #aaaaaa;
+  box-shadow: 0px 0px 20px #aaaaaa;
+}
+
+fieldset.warnings,
+fieldset fieldset {
+  background: transparent;
+  color: #cccccc !important;
+}
+
+input,
+textarea,
+select {
+  background: rgba(10, 10, 10,.5);
+  color: #cccccc;
+  border: 1px solid #aaaaaa;
+  box-shadow: 0px 0px 10px #aaaaaa;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+.autocomplete div.dropdown ul,
+.search [role="tooltip"] {
+  background: #0a0a0a;
+  color: #cccccc;
+}
+
+.autocomplete.dropdown {
+  background: transparent;
+}
+
+.autocomplete.dropdown p.notice {
+  background: #aaaaaa;
+  padding: none !important;
+}
+
+.required,
+.error,
+.alert.flash {
+  color: #ffffff;
+  text-shadow: 0px 0px 10px #aaaaaa;
+}
+
+form.verbose legend,
+.verbose form legend {
+  background: #0a0a0a;
+  box-shadow: 0px 0px 15px #aaaaaa;
+}
+
+span.question {
+  background: #aaaaaa;
+  border: 1px solid #aaaaaa;
+  padding: 1px;
+  color: #0a0a0a;
+  font-family: "Century Gothic", sans-serif;
+  box-shadow: 0px 0px 15px #aaaaaa;
+}
+
+.resp-sharing-button--twitter,
+.resp-sharing-button--tumblr {
+  background: rgba(10, 10, 10,.3) !important;
+  border: 1px solid #aaaaaa !important;
+  box-shadow: 0px 0px 20px #aaaaaa;
+}
+
+#greeting img.icon {
+  border-radius: 95%;
+  border: 1px solid #aaaaaa;
+  padding: 2px;
+  box-shadow: 0px 0px 20px #aaaaaa;
+}
+
+#greeting .menu {
+  width: 12em !important;
+}
+
+#header .menu {
+  width: 20em;
+}
+
+#header .menu {
+  background: #0a0a0a;
+  border: 1px solid #aaaaaa;
+  box-shadow: 0px 0px 20px #aaaaaa;
+}
+
+#header a.dropdown-toggle,
+#greeting .user > li:nth-of-type(3) a {
+  color: #aaaaaa !important;
+}
+
+#header .menu li a {
+  color: #aaaaaa !important;
+}
+
+#header .menu li {
+  border-bottom: none;
+}
+
+#header .dropdown:hover a,
+#greeting .user > li:nth-of-type(3) a:hover {
+  background: transparent;
+}
+
+.toggled form,
+.dynamic form,
+div.dynamic {
+  background: transparent;
+}
+
+.bookmark .user {
+  background: rgba(10, 10, 10,.4);
+  border: 1px solid #aaaaaa;
+  box-shadow: 0px 0px 20px #aaaaaa;
+}
+
+.reading h4.viewed {
+  background: rgba(10, 10, 10,.5);
+  border: 1px solid #aaaaaa;
+  border-radius: 5px;
+  padding: .5em;
+  margin: .5em;
+  box-shadow: 0px 0px 15px #aaaaaa;
+}
+
+dl.index dd {
+  background: transparent;
+}
+
+dl.subscription.index.group {
+  background: rgba(10, 10, 10,.5);
+  padding: 1em;
+}
+
+#main.users-edit.dashboard.region dl,
+#main.pseuds-edit.dashboard.region dl,
+#main.users-change_username.dashboard.region dl,
+#main.users-change_password.dashboard.region dl,
+#main.users-change_email.dashboard.region dl,
+dl.meta {
+  background: rgba(10, 10, 10,.5);
+  border: 2px solid #aaaaaa;
+  box-shadow: 0px 0px 20px #aaaaaa;
+}
+
+.bio.module {
+  margin-top: 2em;
+  background: rgba(10, 10, 10,.5);
+}
+
+.bio.module h3.heading {
+  visibility: hidden;
+}
+
+.bio.module h3.heading::before {
+  visibility: visible;
+  content: " A note from the user:";
+  font-size: 150%;
+  text-decoration: underline;
+}
+
+.index .skins .icon {
+  background: url("https://i.ibb.co/RMrJhf6/image-5.png");
+  background-size: 55px 55px;
+  background-repeat: no-repeat;
+}
+
+.comment .icon .visitor {
+  background: url("https://i.ibb.co/2YRMtGHS/image-6.png");
+  background-size: 100px 100px;
+  background-repeat: no-repeat;
+}
+
+.comment div.icon {
+  background: #0a0a0a;
+  border-bottom: 5px solid #aaaaaa;
+}
+
+.comment h4.byline {
+  background: #0a0a0a;
+}
+
+div.comment,
+li.comment {
+  background: rgba(10, 10, 10,.3);
+  border: 2px solid #aaaaaa;
+  box-shadow: 0px 0px 15px #aaaaaa;
+}
+
+.thread .even {
+  background: rgba(170, 170, 170, .3);
+}
+
+ol.comment.index.group .read {
+  background: rgba(10, 10, 10,.3);
+}
+
+ol.comment.index.group .unread {
+  background: rgba(170, 170, 170, .3);
+}
+
+.replied,
+span.unread {
+  color: #aaaaaa !important;
+  background: rgba(10, 10, 10,.5) !important;
+  box-shadow: 0px 0px 15px #aaaaaa;
+  text-shadow: 0px 0px 5px #aaaaaa;
+}
+
+.draft {
+  border: 2px dashed #aaaaaa;
+  background: rgba(170, 170, 170, .3);
+}
+
+.draft.work .wrapper {
+  background: rgba(170, 170, 170, .2);
+}
+
+#previewpane fieldset {
+  border: none;
+  box-shadow: none;
+  background: none;
+}
+
+.own,
+.child,
+.unwrangled,
+.unreviewed {
+  background: rgba(170, 170, 170, .2);
+}
+
+.ui-sortable li {
+  background: transparent;
+  border: transparent;
+}
+
+.ui-sortable li:hover {
+  background: transparent;
+  border: 1px solid #aaaaaa;
+  box-shadow: 0px 0px 5px #aaaaaa;
+}
+
+h2.collections {
+  box-shadow: 0px 0px 20px #888888;
+}
+
+#stat_chart svg {
+  filter: invert(90%) opacity(70%);
+}
+
+table {
+  background: transparent;
+}
+
+thead {
+  background: rgba(170, 170, 170, .7);
+  color: #aaaaaa;
+  font-weight: bold;
+  font-size: 120%;
+  border-bottom: 2px solid #aaaaaa;
+}
+
+th,
+tr,
+td {
+  background: rgba(10, 10, 10,.3);
+}
+
+span.requested.offered {
+  color: #aaaaaa;
+  background: rgba(170, 170, 170, .3);
+}
+
+span.requested {
+  color: #aaaaaa;
+}
+
+.mystery.header.picture.module div.icon {
+  background: url("https://i.ibb.co/xtBv6C27/image-7.png");
+  background-size: 55px 55px;
+  background-repeat: no-repeat;
+}
+
+div.preface .module {
+  background: rgba(10, 10, 10,.3);
+}
+
+#dashboard.own {
+  background: rgba(170, 170, 170, .1);
+  border: 3px solid #aaaaaa;
+  box-shadow: 0px 0px 15px #aaaaaa;
+}
+
+#dashboard a {
+  color: #aaaaaa;
+  border: 1px solid transparent;
+}
+
+#dashboard .current {
+  background: rgba(170, 170, 170, .6);
+  color: #000000;
+  border: 1px solid #aaaaaa;
+  box-shadow: 0px 0px 10px #aaaaaa;
+}
+
+#dashboard a:hover {
+  background: rgba(170, 170, 170, .3);
+  color: #000000;
+  border: 1px solid #aaaaaa;
+}
+
+#dashboard ul {
+  border-top: none;
+}
+
+.listbox,
+fieldset fieldset.listbox {
+  background: rgba(10, 10, 10,.3);
+  border: 2px solid #aaaaaa;
+  box-shadow: 0px 0px 20px #aaaaaa;
+}
+
+.listbox .index {
+  background: transparent;
+  box-shadow: none;
+}
+
+.listbox > .heading {
+  font-variant: small-caps;
+  font-weight: bold;
+  color: #aaaaaa;
+  text-shadow: 0px 0px 2px #aaaaaa;
+}
+
+li.blurb {
+  background: rgba(10, 10, 10,.4);
+  border: 2px solid #aaaaaa;
+  box-shadow: 0px 0px 20px #aaaaaa;
+  margin-bottom: 2em;
+}
+
+.warnings .tag {
+  background: rgba(170, 170, 170, .9);
+  color: #000000 !important;
+}
+
+.relationships .tag {
+  background: rgba(170, 170, 170, .6);
+  color: #000000 !important;
+}
+
+li.warnings + li.relationships:before,
+li.relationships + li.characters:before,
+li.relationships + li.characters:before,
+li.characters + li.freeforms:before,
+li.warnings + li.characters:before,
+li.warnings + li.freeforms:before,
+li.relationships + li.freeforms:before {
+  content: " ▫️ ";
+  color: transparent !important;
+  text-shadow: 0 0 0 #888888;
+}
+
+#workskin {
+  margin-top: 2em;
+  background: rgba(10, 10, 10,.5);
+}
+
+p.kudos {
+  background: url("https://i.ibb.co/QjfW2W4X/image-8.png") no-repeat;
+}
+
+span.complete-no.iswip,
+span.category-slash.category,
+span.category-het.category,
+span.category-multi.category,
+span.rating-explicit.rating,
+span.warning-yes.warnings,
+span.complete-yes.iswip,
+span.rating-general-audience.rating,
+span.category-gen.category,
+span.rating-teen.rating,
+span.rating-mature.rating,
+span.warning-choosenotto.warnings,
+span.category-femslash.category {
+  filter: opacity(90%) saturate(40%);
+  box-shadow: 0px 0px 10px #888888;
+}
+
+span.rating-notrated.rating,
+span.category-none.category,
+span.warning-no.warnings {
+  filter: brightness(0%);
+}
+
+.blurb h4 a:visited {
+  color: #555555 !important;
+}
+
+.tag .primary .icon,
+.tagset .primary .icon {
+  background: url("https://i.ibb.co/hxm0VS9B/image-9.png");
+  background-size: 100px 100px;
+  background-repeat: no-repeat;
+  border: 1px solid #aaaaaa;
+  box-shadow: 0px 0px 15px #aaaaaa;
+}
+
+.filters .expander {
+  color: #aaaaaa;
+  border: 1px solid #aaaaaa;
+  border-radius: 5px;
+  margin-bottom: .5em;
+  box-shadow: none;
+  background: #0a0a0a;
+}
+
+.filters .expanded .expander {
+  background: #0a0a0a !important;
+  background-image: none !important;
+}
+
+.filters .expander::before {
+  content: "↕ ";
+}
+
+form dt {
+  border-bottom: none;
+}
+
+/* Detector de IA clude */
+
+body:has(.userstuff [class*="font-claude"]) h2.title,
+body:has(.userstuff [class*="font-claude"]) h2.title a {
+  color: #ff0000 !important;
+  text-shadow: 0 0 8px #ff0000 !important;
+}
+
+body:has(.userstuff p[class*="font-claude"])::before {
+  content: "⚠ AI-generated content detected";
+  font-weight: bold;
+  color: white;
+  background: #242424;
+  padding: 12px;
+  display: block;
+}
